@@ -1,0 +1,349 @@
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background: #0f0f0a;
+
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content:center;
+	align-items: center;
+	background: linear-gradient(to bottom, rgba(29, 28, 28, 0.931), rgba(245, 130, 36, 0.931));
+}
+
+#navega .nav-item a:hover {
+	text-shadow: 2px 2px rgba(245, 130, 36, 0.931);
+}
+
+#navega a {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	color: #0f0f0a;
+}
+
+#navega a:hover,
+.list a:hover {
+	color: white;
+	text-shadow: 2px;
+	transition: ease-in-out color .3s;
+}
+
+#navega{
+	text-align: center;
+	}
+	
+	.nav-item{
+		padding: 5px 10px
+	}
+.navbar a {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+
+#Logo-nav {
+	width: 75px;
+	height: auto;
+	max-width: 100%;
+}
+
+
+
+
+#button1:hover,
+#button:hover{
+	background: rgba(245, 130, 36, 0.931);
+	color: white;
+	border-radius: 10px;
+	transition: all .6s ease-in;
+}
+
+#button1 {
+	width: 83%;
+	background: transparent;
+	color: black;
+	border: none;
+}
+
+#card {
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
+	position: relative;
+	top: -110px;
+}
+
+#card p {
+	font-size: 18px;
+}
+
+.row h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin-bottom: 0.4em;
+	margin-right: 0.5em;
+}
+
+.row i {
+	font-size: 1.2em;
+}
+
+
+.btn {
+	color: black;
+	background-color: rgba(245, 130, 36, 0.931);
+}
+
+#logo {
+	max-width: 100%;
+	width: 150px;
+	height: auto;
+}
+
+#jumbotron {
+	padding-bottom: 15px;
+	background: white;
+}
+
+#jumbotron h1 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: 300;
+	color: black;
+	text-align: center;
+	font-size: 4.2em;
+}
+
+#jumbotron p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+}
+
+
+
+.error {
+	color: red;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+}
+
+.card {
+	margin-top: 3.4rem;
+}
+
+.card h3 {
+	font-family: 'Roboto Slab', serif;
+}
+
+main .container {
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	text-align: justify;
+}
+
+#rodape {
+	background-color: rgba(5, 5, 5, 0.931);
+	color: rgba(241, 116, 13, 0.897);
+	padding-bottom: 8px;
+}
+
+#rodape h3,
+#rodape a {
+	color: rgba(241, 116, 13, 0.897);
+}
+#rodape h3 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+#rodape .col-md-4 {
+	margin-top: 20px;
+	list-style: none;
+	padding:10px 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+#rodape p{
+	font-size: 20px;
+}
+.list {
+	text-decoration: none;
+	list-style: none;
+}
+.list li{
+	padding: 10px;
+}
+
+.list li > a {	
+	text-decoration: none; 
+	padding: 8px
+}
+
+#home:hover,#inscricao:hover{
+	color: white;
+	text-shadow: 2px;
+	transition: ease-in-out color .3s;
+}
+blockquote p {
+	color: rgba(241, 116, 13, 0.897);
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+
+.formulario_ins{
+color: #0f0f0a;
+	position: relative;
+	top: 40px;
+	left: 60px;
+
+}
+.form-group input {
+	outline: none;
+	user-select: none;
+}
+.form-group{
+	color: #0f0f0a;
+	
+}
+.form-row{
+	display: flex;
+	
+	position: relative;
+
+}
+
+#alert{
+
+	position: relative;
+	left: 15px;
+}
+.fa-spinner{
+	animation:loading 1s linear infinite;
+}
+@keyframes loading{
+	to{
+		transform: rotate(360deg);
+	}
+}
+/* responsividade */
+@media screen and (min-width: 360px) {
+
+	
+
+	.card {
+		margin-top: 1.9em;
+		margin-left: 2.8em;
+		width: 90%
+	}
+
+	#form h3 {
+		font-size: 2.5em;
+		margin-top: 1em;
+	}
+
+	#rodape p {
+		text-align: center;
+		margin-bottom: 1.5em;
+		font-size: 25px;
+	}
+
+	.card p {
+		font-size: 13px;
+	}
+
+	#card {
+		margin-top: 110px;
+	}
+	#form h3, #form h3 i{
+		font-size: 36px;
+	
+	}
+	#button1 {
+		width: 100%;
+	
+	}
+	
+}
+
+@media screen and (min-width: 535px) {
+
+
+	.card {
+		margin-right: 4em;
+	}
+
+	#form h3 {
+		font-size: 2.5em;
+		margin-top: 1em;
+	}
+
+
+	#button1 {
+		width: 67%;
+	}
+	#alert{
+		width: 80%;
+		position: relative;
+		left: -15px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+
+	#form {
+		padding-right: 4em;
+		;
+	}
+
+	.card {
+		margin-right: 4em;
+	}
+	.list {
+		left: 30%;
+	}
+	#navega{
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 910px) {
+	.card {
+		margin-top: -2em;
+	}
+
+	#card {
+		margin-top: 0px;
+	}
+	#jumbotron h1{
+		margin-top:30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+.card{
+	margin-top: 15px;
+}
+}

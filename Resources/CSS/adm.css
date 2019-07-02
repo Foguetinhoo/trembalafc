@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(23, 162, 184, .9);
+}
+.navbar {
+	/*display: flex;*/
+	/*justify-content:start;*/
+	/*align-items: center;*/
+	background: linear-gradient(to bottom, rgba(29, 28, 28, 0.931), rgba(245, 130, 36, 0.931));
+}
+#nav{
+		display: flex;
+	justify-content:start;
+	align-items: center;
+}
+#nav a{
+    position:relative;
+    float:left;
+}
+/*#navega .nav-item a:hover {*/
+/*    text-shadow: 2px 2px rgba(245, 130, 36, 0.931);*/
+/*    color: white;*/
+/*    transition: all .6s ease;*/
+/*}*/
+
+/*#navega a {*/
+/*	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+/*	font-size: 1.3em;*/
+/*	letter-spacing: 2px;*/
+/*	color: #0f0f0a;*/
+/*}*/
+
+
+/*#navega{*/
+		/*display: flex;*/
+		/*justify-content: start;*/
+		/*align-content: center;*/
+		/*align-items: center;*/
+		/*flex-wrap: wrap;*/
+		/*position: relative;*/
+		/*left: 10%;*/
+/*		text-align:center;*/
+/*	}*/
+	
+/*	.nav-item{*/
+/*		padding: 5px 10px*/
+/*	}*/
+/*.navbar a {*/
+/*	font-family: 'Dosis', sans-serif;*/
+/*	font-size: 1.6em;*/
+/*	letter-spacing: 2px;*/
+/*	text-transform: uppercase;*/
+/*}*/
+
+.fa-heart{
+	color: rgb(224, 65, 65);
+}
+	
+.table{
+    width:100%;
+}		
+
+#Logo-nav {
+	width: 75px;
+	height: auto;
+	max-width: 100%;
+}
+#logo-nav {
+	width: 75px;
+	height: auto;
+	max-width: 100%;
+}
+.row h3 {
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 0.4em;
+    margin-right: 0.5em;
+}
+
+.row i {
+    font-size: 1.2em;
+}
+
+.btn {
+    color: black;
+    background-color: rgb(23, 162, 184);
+}
+
+.btn:hover {
+    border-radius: 0px;
+    color: white;
+}
+
+blockquote p {
+	color: rgba(241, 116, 13, 0.897);
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+#rodape {
+       background-color: rgba(5, 5, 5, 0.931);
+  
+    
+}
+#button:hover{
+	background: rgba(241, 27, 20, 0.931);
+	color: white;
+	transition: all .5s ease-in;
+}
+
+#button {
+
+    background: transparent;
+    position: relative;
+	color: black;
+	border: 1px solid rgb(126, 124, 124);
+	box-shadow: 2px 3px 4px rgb(107, 105, 105);
+	padding: 15px;
+	width: 60%;
+	border-radius: 5px
+}
+.card{
+    margin-top:50px;
+    width: 400px;
+    box-shadow:  2px 3px 6px rgba(70, 68, 68, 0.931);
+ 
+    font-family: 'Titillium Web', sans-serif;
+        position: relative;
+
+}
+.card p{
+    font-size: 25px;
+}
+.bd-highlight{
+    position: relative;
+	float:left;
+	margin:20px; 
+}
+.bt2{
+      position: relative;
+    	background: rgba(241, 27, 20, 0.931);
+        float:left;
+}
+@media screen and (max-width:991px){
+	#navega{
+		display: flex;
+		justify-content: center;
+	left: 0;
+
+	}
+}
